@@ -1,6 +1,6 @@
-<div class="carousel-outer">
-	<div class="testimonials-carousel">
-
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
 
 	<?php
 		// WP_Query arguments
@@ -25,8 +25,7 @@
 			</div>
 
 		<?php }} else {} wp_reset_postdata(); ?>
-
-
-
+		
+		</div>
 	</div>
 </div>
