@@ -18,7 +18,6 @@
 				<div class="testimonial">
 					PUT FEATURED IMAGE HERE
 					<h4><?php the_title(); ?></h4>
-					</div>
 					<div class="testimonial-content"><?php the_content(); ?></div>
 				</div>
 			</div>
