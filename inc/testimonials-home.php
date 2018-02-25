@@ -24,10 +24,16 @@
 			?>
 			<div class="carousel-item col-sm-4<?php echo $active_class; ?>">
 				<div class="testimonial row">
-					<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
-					<h3><?php the_title(); ?></h3>
-					<div class="testimonial-content"><?php the_content(); ?></div>
+					<div class="col-sm-6">
+						<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
+					</div>
+					<div class="col-sm-6">
+						<h3><?php the_title(); ?></h3>
+						<p>Something else here</p>
+					</div>
 				</div>
+				<hr />
+				<div class="row testimonial-content"><?php the_content(); ?></div>
 			</div>
 
 		<?php }} else {} wp_reset_postdata(); ?>
