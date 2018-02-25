@@ -19,7 +19,7 @@
 	</footer>
 	<?php wp_footer(); ?>
 	<script>		
-		jQuery('#carouselExample').on('slide.bs.carousel', function (e) {
+		$('#carouselExample').on('slide.bs.carousel', function (e) {
 
 		    var $e = $(e.relatedTarget);
 		    var idx = $e.index();
