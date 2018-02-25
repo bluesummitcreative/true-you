@@ -33,13 +33,13 @@
 		<?php }} else {} wp_reset_postdata(); ?>
 		
 		</div>
-		<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+		<!--<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
 		    <i class="fa fa-chevron-left fa-lg text-muted"></i>
 		    <span class="sr-only">Previous</span>
 		</a>
 		<a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
 		    <i class="fa fa-chevron-right fa-lg text-muted"></i>
 		    <span class="sr-only">Next</span>
-		</a>
+		</a>-->
 	</div>
 </div>
