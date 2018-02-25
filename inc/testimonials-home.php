@@ -14,7 +14,7 @@
 		if ( $query_testimonials->have_posts() ) {
 			while ( $query_testimonials->have_posts() ) {
 				$query_testimonials->the_post(); ?>
-			<div class="carousel-item col-sm-4 active">
+			<div class="carousel-item col-sm-4">
 				<div class="testimonial">
 					PUT FEATURED IMAGE HERE
 					<h3><?php the_title(); ?></h3>
