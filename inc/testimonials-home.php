@@ -31,9 +31,10 @@
 						<h3><?php the_title(); ?></h3>
 						<p>Something else here</p>
 					</div>
-				</div>
 				<hr />
 				<div class="row testimonial-content"><?php the_content(); ?></div>
+				</div>
+				
 			</div>
 
 		<?php }} else {} wp_reset_postdata(); ?>
