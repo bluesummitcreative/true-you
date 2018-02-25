@@ -23,16 +23,10 @@
 				else{ $active_class = '';} 
 			?>
 			<div class="carousel-item col-sm-4<?php echo $active_class; ?>">
-				<div class="testimonial">
-					<div class="col-sm-6">
+				<div class="testimonial">					
 						<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
-					</div>
-					<div class="col-sm-6">
 						<h3><?php the_title(); ?></h3>
-						<p>Something else here</p>
-					</div>
-				<hr />
-				<div class="testimonial-content"><?php the_content(); ?></div>
+						<?php the_content(); ?>
 				</div>
 				
 			</div>
