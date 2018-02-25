@@ -11,14 +11,17 @@
 
 		$query_testimonials = new WP_Query( $args );
 		
-		$c = 1;
+		$c = 0;
 					
-		if ( $c == 1 ){ $active_class = ' active';}
-		else{ $active_class = '';} 
+		
 
 		if ( $query_testimonials->have_posts() ) {
 			while ( $query_testimonials->have_posts() ) {
-				$query_testimonials->the_post(); $c++;?>
+				$query_testimonials->the_post(); 
+				$c++;
+				if ( $c == 1 ){ $active_class = ' active';}
+				else{ $active_class = '';} 
+			?>
 			<div class="carousel-item col-sm-4<?php echo $active_class; ?>">
 				<div class="testimonial">
 					PUT FEATURED IMAGE HERE
