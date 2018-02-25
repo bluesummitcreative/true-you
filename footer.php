@@ -18,11 +18,7 @@
 		
 	</footer>
 	<?php wp_footer(); ?>
-	<script>
-		jQuery(document).ready(function () {
-		  $(".carousel-item").addClass("active");
-		});
-		
+	<script>		
 		$('#carouselExample').on('slide.bs.carousel', function (e) {
 
 		    var $e = $(e.relatedTarget);
