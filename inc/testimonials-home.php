@@ -24,7 +24,7 @@
 			?>
 			<div class="carousel-item col-sm-4<?php echo $active_class; ?>">
 				<div class="testimonial">
-					<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=4" alt="slide 4">
+					<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
 					<h3><?php the_title(); ?></h3>
 					<div class="testimonial-content"><?php the_content(); ?></div>
 				</div>
