@@ -1,5 +1,5 @@
 <div class="container-fluid home-testimonials">
-	<div id="carouselExample" class="carousel slide container" data-ride="carousel" data-interval="9000">
+	<div id="carouselExample" class="carousel slide container" data-ride="carousel" data-interval="3000">
 		<div class="carousel-inner row w-100 mx-auto" role="listbox">
 
 	<?php
