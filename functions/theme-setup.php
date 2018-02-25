@@ -13,7 +13,7 @@
 
 		add_theme_support( 'post-formats', array( ) );
 
-		add_theme_support( 'post-thumbnails', array( ) );
+		add_theme_support( 'post-thumbnails');
 
 		add_theme_support( 'custom-header', array(
 		  'flex-height' => true,
