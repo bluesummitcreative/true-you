@@ -18,7 +18,7 @@
 		
 	</footer>
 	<?php wp_footer(); ?>
-	<script>		
+	<script type="text/javascript">		
 		$('#carouselExample').on('slide.bs.carousel', function (e) {
 
 		    var $e = $(e.relatedTarget);
