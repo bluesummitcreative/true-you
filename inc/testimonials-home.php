@@ -22,7 +22,7 @@
 				if ( $c == 1 ){ $active_class = ' active';}
 				else{ $active_class = '';} 
 			?>
-			<div class="carousel-item col-sm-4<?php echo $active_class; ?>">
+			<div class="carousel-item col-sm-3<?php echo $active_class; ?>">
 				<div class="testimonial">					
 						<img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
 						<h3><?php the_title(); ?></h3>
