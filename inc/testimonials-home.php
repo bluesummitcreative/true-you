@@ -11,7 +11,7 @@
 
 		$query_testimonials = new WP_Query( $args );
 		
-		$c = 1;
+		$c = 0;
 					
 		
 
