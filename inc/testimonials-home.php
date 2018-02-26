@@ -25,7 +25,7 @@
 			<div class="carousel-item col-sm-3<?php echo $active_class; ?>">
 				<div class="testimonial text-center">					
 						<img style="border-radius:50%;margin:10px auto;" class="mx-auto d-block" src="//placehold.it/150x150?text=<?php echo $c; ?>" alt="slide <?php echo $c; ?>">
-						<h4><?php the_title(); ?></h4>
+						<h4 style="margin-top:30px;"><?php the_title(); ?></h4>
 						<?php the_content(); ?>
 				</div>
 				
