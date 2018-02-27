@@ -64,17 +64,7 @@
 
 						<!--Footer Column-->
 						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-							<div class="footer-widget contact-widget">
-								<h2>Contact Us</h2>
-								<div class="widget-content">
-									<ul class="contact-info">
-										<li><span class="icon flaticon-telephone-1"></span><strong>Phone:</strong> (970) 227-2806</li>
-										<li><span class="icon flaticon-interface-4"></span><strong>Email:</strong> mbyprogram@gmail.com</li>
-										<li><span class="icon flaticon-location"></span><strong>Address:</strong> 1606 S. Lemay Ave, Suite 102, Fort Collins, CO 80525</li>
-									</ul>
-
-								</div>
-							</div>
+							
 
 							<div class="footer-widget newsletter-widget">
 								<h2>Sign Up for Our Newsletter</h2>
