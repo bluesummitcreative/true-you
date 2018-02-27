@@ -26,7 +26,7 @@
 									<div class="row clearfix">
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<ul>
-												<?php wp_list_pages('title_li=&include=39,43,40,41,42&sort_column=menu_order'); ?>
+												<?php wp_list_pages('title_li=&include=56,57,58&sort_column=menu_order'); ?>
 											</ul>
 										</div>
 									</div>
