@@ -110,10 +110,8 @@
 			</div>
 		</div>
 	</div>
-</footer>
-
-<footer class="footer">
-		<div class="container-fluid">
+	
+			<div class="container-fluid">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center">
@@ -127,9 +125,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		
-	</footer>
+</div>
+</footer>
+
+
 	<?php wp_footer(); ?>
 	<script type="text/javascript">		
 		jQuery(document).ready(function($){
