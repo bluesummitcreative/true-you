@@ -1,1 +1,1 @@
-<?php the_field ('section-banner'); ?>
+<img class="img-fluid" src="/wp-content/uploads/AdobeStock_144958350.jpeg" alt="banner">
