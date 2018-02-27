@@ -92,10 +92,7 @@
 
 			 </div>
 		 </div>
-
-	
-
-
+	</div>
 	        <div class="container-fluid socials">
 			<div class="container">
 				<div class="row">
@@ -111,7 +108,7 @@
 				</div>
 			</div>
                </div>
-</div>
+
 </footer>
 
 
