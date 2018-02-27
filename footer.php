@@ -93,7 +93,7 @@
 			 </div>
 		 </div>
 
-	</div>
+	
 
 
 			<div class="container-fluid">
@@ -110,6 +110,7 @@
 					</div>
 				</div>
 			</div>
+</div>
 </div>
 </footer>
 
