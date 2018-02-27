@@ -95,22 +95,7 @@
 
 	</div>
 
-	<!--Footer Bottom-->
-	 <div class="footer-bottom">
-		<div class="auto-container">
-			<div class="clearfix">
-				<div class="pull-left"><div class="copyright"><?php dynamic_copyright(); ?></div></div>
-				<div class="pull-right">
-					<ul class="footer-social">
-						<?php if( have_rows('social_media_links', 'option') ): while( have_rows('social_media_links', 'option') ): the_row(); ?>
-						<li><a href="<?php the_sub_field('link'); ?>" target="_blank"><i class="fab <?php the_sub_field('icon'); ?>" aria-hidden="true"></i></a></li>
-						<?php endwhile; endif; ?>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+
 			<div class="container-fluid">
 			<div class="container">
 				<div class="row">
