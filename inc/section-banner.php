@@ -1,1 +1,1 @@
-<?php the_field ('section-banner'); ?>
+<?php the_field ('section_banner'); ?>
