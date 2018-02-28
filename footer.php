@@ -80,7 +80,7 @@
 												<button type="submit" class="theme-btn"><span class="fa fa-paper-plane"></span></button>
 											</div>
 										</form>
-										<?php // echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="true"]'); ?>
+										<?php // echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
 									</div>
 								</div>
 							</div>
