@@ -1,7 +1,7 @@
 <?php 
 
 $image = get_field('section_banner');
-$size = 'large'; // (thumbnail, medium, large, full or custom size)
+$size = 'full'; // (thumbnail, medium, large, full or custom size)
 
 if( $image ) {
 
