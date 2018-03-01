@@ -1,1 +1,5 @@
-<img src="<?php the_field('section_banner'); ?>" class="img-fluid" />
+<?php if( get_field('image') ): ?>
+
+	<img src="<?php the_field('image'); ?>" />
+
+<?php endif; ?>
