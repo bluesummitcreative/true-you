@@ -1,5 +1,13 @@
-<?php if( get_field('section_banner') ): ?>
+<?php 
 
-	<img src="<?php the_field('section_banner'); ?>" class="img-fluid" />
+$image = get_field('section_banner');
+$size = 'medium'; // (thumbnail, medium, large, full or custom size)
 
-<?php endif; ?>
+if( $image ) {
+
+	echo wp_get_attachment_image( $image, $size );
+
+}
+
+?>
+
