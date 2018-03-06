@@ -23,8 +23,6 @@
 							endif
 						?>
 										
-						</div>
-
 					</div>
 				</div>
 
