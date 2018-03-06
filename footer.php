@@ -9,14 +9,11 @@
 					<div class="row clearfix">
 
 						<!--Footer Column-->
-						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-							<div class="footer-widget about-widget">
-								<div class="widget-content">
-									<img src="/wp-content/uploads/true-sm.png" class="img-responsive" alt="" />
-									<div class="text">It all begins with your desire to shift, to look within, to RELEASE the old stories, thoughts and belief systems, RESET the habits and patterns that are no longer working for you, and RECLAIM yourself and the life you want to LIVE.</div>
-								</div>
-							</div>
-						</div>
+						<?php
+							if ( is_active_sidebar( 'footer-widget-1' ) ) : 
+								dynamic_sidebar( 'footer-widget-1' ); 
+							endif
+						?>
 
 						<!--Footer Column-->
 						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
