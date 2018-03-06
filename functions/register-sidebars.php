@@ -28,10 +28,13 @@
 			array(
 				'name' => __( 'Footer Widget 1'),
 				'id' => 'footer-widget-1',
-				'before_widget' => '<div class="widget">',
-				'after_widget' => '</div>',
-				'before_title' => '<h4>',
-				'after_title' => '</h4>',
+				'before_widget' => '<div class="footer-column col-md-6 col-sm-6 col-xs-12"><div class="footer-widget about-widget">
+								<div class="widget-content">',
+				'after_widget' => '</div>
+							</div>
+						</div>',
+				'before_title' => '<h2>',
+				'after_title' => '</h2>',
 				)
 		);
 		
@@ -41,8 +44,8 @@
 				'id' => 'footer-widget-2',
 				'before_widget' => '<div class="widget">',
 				'after_widget' => '</div>',
-				'before_title' => '<h4>',
-				'after_title' => '</h4>',
+				'before_title' => '<h2>',
+				'after_title' => '</h2>',
 				)
 		);
 		
@@ -52,8 +55,8 @@
 				'id' => 'footer-widget-3',
 				'before_widget' => '<div class="widget">',
 				'after_widget' => '</div>',
-				'before_title' => '<h4>',
-				'after_title' => '</h4>',
+				'before_title' => '<h2>',
+				'after_title' => '</h2>',
 				)
 		);
 		
@@ -63,8 +66,8 @@
 				'id' => 'footer-widget-4',
 				'before_widget' => '<div class="widget">',
 				'after_widget' => '</div>',
-				'before_title' => '<h4>',
-				'after_title' => '</h4>',
+				'before_title' => '<h2>',
+				'after_title' => '</h2>',
 				)
 		);
 		
