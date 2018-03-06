@@ -12,13 +12,4 @@
 		</div>
 	</div>
 </div>
-<?php
-if ( is_home() ) :
-	get_footer();
-elseif ( is_404() ) :
-	get_footer( '404' );
-else :
-	get_footer('cta');
-endif;
-?>
-
+<?php get_footer(); ?>
