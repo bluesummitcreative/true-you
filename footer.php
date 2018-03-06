@@ -31,50 +31,19 @@
 					<div class="row clearfix">
 
 						<!--Footer Column-->
-						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-							<div class="footer-widget posts-widget">
-								<h2>Recent News</h2>
-								<div class="widget-content">
-									<div class="posts"> 
-										<?php global $post; // required
-										$args = array('posts_per_page'   => 3,'post_status'      => 'publish');
-										$custom_posts = get_posts($args);
-										foreach($custom_posts as $post) : setup_postdata($post); ?>
-											<div class="post">
-												
-												<div class="desc-text"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-												<time class="entry-date posted-info time" datetime="<?php the_time(get_option( 'time_format' )); ?>" itemprop="datePublished" pubdate><?php the_time( get_option( 'date_format' ) ); ?></time>
-											</div>
-										<?php endforeach; ?>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php
+							if ( is_active_sidebar( 'footer-widget-3' ) ) : 
+								dynamic_sidebar( 'footer-widget-3' ); 
+							endif
+						?>
 
 						<!--Footer Column-->
-						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-							
-
-							<div class="footer-widget newsletter-widget">
-								<h2>Sign Up for Our Newsletter</h2>
-								<div class="widget-content">
-									<div class="text">Be the first to hear of new programs and specials:</div>
-									<!--Newsletter One-->
-									<div class="newsletter-one">
-										<form method="post" action="https://trueyouinmotion.us9.list-manage.com/subscribe/post">
-											<input type="hidden" name="u" value="79bb268d55ad000caf57cd8b5">
-    										<input type="hidden" name="id" value="e5ae00c385">
-											<div class="form-group">
-												<input type="email" name="MERGE0" id="MERGE0" value="" required placeholder="Your Email">
-												<button type="submit" class="theme-btn"><span class="fa fa-paper-plane"></span></button>
-											</div>
-										</form>
-										<?php // echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
-									</div>
-								</div>
-							</div>
-
-						</div>
+						
+						<?php
+							if ( is_active_sidebar( 'footer-widget-4' ) ) : 
+								dynamic_sidebar( 'footer-widget-4' ); 
+							endif
+						?>
 
 					</div>
 				</div>
