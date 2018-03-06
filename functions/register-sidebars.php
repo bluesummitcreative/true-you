@@ -45,8 +45,7 @@
 				'before_widget' => '<div class="footer-column col-md-6 col-sm-6 col-xs-12">
 							<div class="footer-widget links-widget">
 								<div class="widget-content">
-									<div class="row clearfix">
-										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">',
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">',
 				'after_widget' => '</div>
 									</div>
 								</div>
