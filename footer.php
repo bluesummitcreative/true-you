@@ -16,19 +16,13 @@
 						?>
 
 						<!--Footer Column-->
-						<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-							<div class="footer-widget links-widget">
-								<h2>Quick Links</h2>
-								<div class="widget-content">
-									<div class="row clearfix">
-										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<ul>
-												<?php wp_list_pages('title_li=&include=56,57,58&sort_column=menu_order'); ?>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+						
+						<?php
+							if ( is_active_sidebar( 'footer-widget-2' ) ) : 
+								dynamic_sidebar( 'footer-widget-2' ); 
+							endif
+						?>
+										
 						</div>
 
 					</div>
