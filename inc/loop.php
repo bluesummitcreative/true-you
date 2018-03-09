@@ -13,6 +13,9 @@
 	</div>
 <?php } else {} ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if ( is_single() ) { ?>
+	<p class="author"><?php the_author(); ?> </p>
+<?php } else {} ?>
 <?php the_content(); ?>
 <?php endwhile; endif; ?>
 </div>
