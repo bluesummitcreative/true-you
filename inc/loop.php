@@ -15,6 +15,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php if ( is_single() ) { ?>
 	<p><em>By <span class="author"><?php the_author(); ?></span><br />Categories: <span class="categories"><?php the_category(', '); ?></span></em></p>
+	<hr />
 <?php } else {} ?>
 <?php the_content(); ?>
 <?php endwhile; endif; ?>
