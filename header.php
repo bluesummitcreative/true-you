@@ -8,6 +8,16 @@
 		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto" rel="stylesheet"> 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115490704-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-115490704-1');
+		</script>
+
 		
 	</head>
 	<body <?php body_class(); ?>>
