@@ -7,7 +7,7 @@
 		<div class="row">
 		<?php
 			get_template_part('inc/loop');
-			get_sidebar();
+			// get_sidebar();
 			?>
 		</div>
 	</div>
