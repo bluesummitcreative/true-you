@@ -3,7 +3,7 @@
 //Allow labels to be hidden
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
 
-//Stop Payments After Five Transactions on 6 Month Empowerment Life Coaching Program
+//Stop Payments After Six Transactions on 6 Month Empowerment Life Coaching Program
 add_action( 'gform_post_add_subscription_payment', function ( $entry ) {
     if ( rgar( $entry, 'payment_status' ) == 'Active' ) {
         $feed       = gf_stripe()->get_payment_feed( $entry );
