@@ -12,6 +12,7 @@
 		$args = array(
 			'post_type'              => array( 'testimonials' ),
 			'post_status'            => array( 'publish' ),
+			'posts_per_page'            => array( -1 ),
 		);
 
 		$query_testimonials = new WP_Query( $args );
